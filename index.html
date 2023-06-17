@@ -18,7 +18,7 @@
         <header class="page-header">
             <div class="logo container">
                 <a class="logo-dark" href="#"
-                    ><span class="logo-dark-part">Web</span>Studio</a
+                    ><span class="logo-dark--part">Web</span>Studio</a
                 >
                 <nav>
                     <ul class="navigation">
@@ -63,13 +63,17 @@
             </div>
         </header>
         <main>
-            <section class="background">
+            <section class="main-background">
                 <div class="container-black">
-                    <h1 class="text-content">
+                    <h1 class="container-black-title">
                         EFEKTYWNE ROZWIĄZANIA <br />
                         DLA WASZEGO BIZNESU
                     </h1>
-                    <button class="order-service" type="button" data-modal-open>
+                    <button
+                        class="container-black-button"
+                        type="button"
+                        data-modal-open
+                    >
                         Zamów usługę
                     </button>
                 </div>
@@ -79,7 +83,7 @@
                     <ul class="card-set">
                         <li class="item">
                             <svg
-                                class="icons-color"
+                                class="item-icon"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="65"
                                 height="120"
@@ -88,8 +92,8 @@
                                     href="./images/icons.svg#icon-antenna-1"
                                 ></use>
                             </svg>
-                            <h4 class="title-style">LOREM IPSUM</h4>
-                            <p class="text-style">
+                            <h4 class="item-title">LOREM IPSUM</h4>
+                            <p class="item-text">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -98,7 +102,7 @@
 
                         <li class="item">
                             <svg
-                                class="icons-color"
+                                class="item-icon"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="65"
                                 height="120"
@@ -107,8 +111,8 @@
                                     href="./images/icons.svg#icon-clock-1"
                                 ></use>
                             </svg>
-                            <h4 class="title-style">LOREM IPSUM</h4>
-                            <p class="text-style">
+                            <h4 class="item-title">LOREM IPSUM</h4>
+                            <p class="item-text">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -117,7 +121,7 @@
 
                         <li class="item">
                             <svg
-                                class="icons-color"
+                                class="item-icon"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="65"
                                 height="120"
@@ -126,8 +130,8 @@
                                     href="./images/icons.svg#icon-diagram-1"
                                 ></use>
                             </svg>
-                            <h4 class="title-style">LOREM IPSUM</h4>
-                            <p class="text-style">
+                            <h4 class="item-title">LOREM IPSUM</h4>
+                            <p class="item-text">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -136,7 +140,7 @@
 
                         <li class="item">
                             <svg
-                                class="icons-color"
+                                class="item-icon"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="65"
                                 height="120"
@@ -145,8 +149,8 @@
                                     href="./images/icons.svg#icon-astronaut-1"
                                 ></use>
                             </svg>
-                            <h4 class="title-style">LOREM IPSUM</h4>
-                            <p class="text-style">
+                            <h4 class="item-title">LOREM IPSUM</h4>
+                            <p class="item-text">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -154,10 +158,10 @@
                         </li>
                     </ul>
 
-                    <h2 class="specialty">Czym się zajmujemy</h2>
+                    <h2 class="section-title">Czym się zajmujemy</h2>
 
-                    <ul class="specialty-pics">
-                        <li class="picture">
+                    <ul class="specialty">
+                        <li class="specialty-picture">
                             <img
                                 src="./images/photo1.jpg"
                                 alt="Męskie dłonie piszące na klawiaturze"
@@ -165,36 +169,38 @@
                                 height="294"
                             />
 
-                            <p class="label">APLIKACJE KOMPUTEROWE</p>
+                            <p class="specialty-label">APLIKACJE KOMPUTEROWE</p>
                         </li>
                         <li>
-                            <div class="picture">
+                            <div class="specialty-picture">
                                 <img
                                     src="./images/photo2.jpg"
                                     alt="Kobieta z telefonem komórkowym w dłoni, siedząca przy komputerze"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="label">APLIKACJE MOBILNE</p>
+                                <p class="specialty-label">APLIKACJE MOBILNE</p>
                             </div>
                         </li>
 
                         <li>
-                            <div class="picture">
+                            <div class="specialty-picture">
                                 <img
                                     src="./images/photo3.jpg"
                                     alt="Tablet z paletą barw trzymany w dłoniach"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="label">ROZWIĄZANIA GRAFICZNE</p>
+                                <p class="specialty-label">
+                                    ROZWIĄZANIA GRAFICZNE
+                                </p>
                             </div>
                         </li>
                     </ul>
                 </div>
             </section>
             <section class="grey">
-                <h2 class="specialty">Nasz zespół</h2>
+                <h2 class="section-title">Nasz zespół</h2>
                 <div class="container">
                     <ul class="card-set">
                         <li class="item frame">
@@ -205,13 +211,13 @@
                                 height="260"
                             />
 
-                            <h4 class="name">John Doe</h4>
-                            <p class="position">Product Designer</p>
+                            <h4 class="item-name">John Doe</h4>
+                            <p class="item-position">Product Designer</p>
                             <div>
-                                <ul class="flex-team">
-                                    <li class="social-logos">
+                                <ul class="item-flex">
+                                    <li class="item-logos">
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -222,7 +228,7 @@
                                     </li>
                                     <li>
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -233,7 +239,7 @@
                                     </li>
                                     <li>
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -244,7 +250,7 @@
                                     </li>
                                     <li>
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -265,13 +271,13 @@
                                 height="260"
                             />
 
-                            <h4 class="name">John Doe</h4>
-                            <p class="position">Frontend Developer</p>
+                            <h4 class="item-name">John Doe</h4>
+                            <p class="item-position">Frontend Developer</p>
                             <div>
-                                <ul class="flex-team">
-                                    <li class="social-logos">
+                                <ul class="item-flex">
+                                    <li class="item-logos">
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -282,7 +288,7 @@
                                     </li>
                                     <li>
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -293,7 +299,7 @@
                                     </li>
                                     <li>
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -304,7 +310,7 @@
                                     </li>
                                     <li>
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -325,11 +331,11 @@
                                 height="260"
                             />
 
-                            <h4 class="name">John Doe</h4>
-                            <p class="position">Marketing</p>
+                            <h4 class="item-name">John Doe</h4>
+                            <p class="item-position">Marketing</p>
                             <div>
-                                <ul class="flex-team">
-                                    <li class="social-logos">
+                                <ul class="item-flex">
+                                    <li class="item-logos">
                                         <svg
                                             class="logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
@@ -342,7 +348,7 @@
                                     </li>
                                     <li>
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -353,7 +359,7 @@
                                     </li>
                                     <li>
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -364,7 +370,7 @@
                                     </li>
                                     <li>
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -385,13 +391,13 @@
                                 height="260"
                             />
 
-                            <h4 class="name">John Doe</h4>
-                            <p class="position">Ul Designer</p>
+                            <h4 class="item-name">John Doe</h4>
+                            <p class="item-position">Ul Designer</p>
                             <div>
-                                <ul class="flex-team">
-                                    <li class="social-logos">
+                                <ul class="item-flex">
+                                    <li class="item-logos">
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -402,7 +408,7 @@
                                     </li>
                                     <li>
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -413,7 +419,7 @@
                                     </li>
                                     <li>
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -424,7 +430,7 @@
                                     </li>
                                     <li>
                                         <svg
-                                            class="logos-design"
+                                            class="item-logos-design"
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 50 100"
                                         >
@@ -440,12 +446,12 @@
                 </div>
             </section>
             <section>
-                <h2 class="clients-text">Nasi klienci</h2>
+                <h2 class="section-title">Nasi klienci</h2>
                 <ul class="icons-flex">
                     <li class="clients-border">
                         <a href="#" class="clients-link" target="blank"></a>
                         <svg
-                            class="icons-design"
+                            class="clients-icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="106px"
                             height="46px"
@@ -456,7 +462,7 @@
                     <li class="clients-border">
                         <a href="#" class="clients-link" target="blank"></a>
                         <svg
-                            class="icons-design"
+                            class="clients-icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="106px"
                             height="46px"
@@ -467,7 +473,7 @@
                     <li class="clients-border">
                         <a href="#" class="clients-link" target="blank"></a>
                         <svg
-                            class="icons-design"
+                            class="clients-icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="106px"
                             height="46px"
@@ -478,7 +484,7 @@
                     <li class="clients-border">
                         <a href="#" class="clients-link" target="blank"></a>
                         <svg
-                            class="icons-design"
+                            class="clients-icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="106px"
                             height="46px"
@@ -489,7 +495,7 @@
                     <li class="clients-border">
                         <a href="#" class="clients-link" target="blank"></a>
                         <svg
-                            class="icons-design"
+                            class="clients-icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="106px"
                             height="46px"
@@ -500,7 +506,7 @@
                     <li class="clients-border">
                         <a href="#" class="clients-link" target="blank"></a>
                         <svg
-                            class="icons-design"
+                            class="clients-icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="106px"
                             height="46px"
@@ -513,36 +519,36 @@
         </main>
         <footer>
             <div class="footer-flex">
-                <div class="background-bottom footer-container">
+                <div class="footer-background footer-container">
                     <div>
-                        <a class="logo-light" href="#"
-                            ><span class="logo-part">Web</span>Studio</a
+                        <a class="footer-logo" href="#"
+                            ><span class="logo-dark--part">Web</span>Studio</a
                         >
 
-                        <div class="address-style">
+                        <div class="footer-address">
                             m. Warszawa, Aleje Jerozolimskie 21
                         </div>
 
-                        <a class="link-footer" href="mailto:info@example.com"
+                        <a class="footer-link" href="mailto:info@example.com"
                             >info@example.com</a
                         ><br />
                         <span
-                            ><a class="link-footer" href="callto:+48111111111"
+                            ><a class="footer-link" href="callto:+48111111111"
                                 >+48 111 111 111</a
                             ></span
                         >
                     </div>
 
                     <div>
-                        <h4 class="title-footer">DOŁĄCZ DO NAS</h4>
-                        <ul class="ul-footer">
-                            <li class="list-footer">
+                        <h4 class="footer-title">DOŁĄCZ DO NAS</h4>
+                        <ul class="footer-ul">
+                            <li class="footer-list">
                                 <a
                                     href="https://www.instagram.com"
                                     target="_blank"
                                 ></a>
                                 <svg
-                                    class="icon-social-footer"
+                                    class="footer-icon-social"
                                     viewBox="0 0 50 100"
                                 >
                                     <use
@@ -550,13 +556,13 @@
                                     ></use>
                                 </svg>
                             </li>
-                            <li class="list-footer">
+                            <li class="footer-list">
                                 <a
                                     href="https://www.twitter.com"
                                     target="_blank"
                                 ></a>
                                 <svg
-                                    class="icon-social-footer"
+                                    class="footer-icon-social"
                                     viewBox="0 0 50 100"
                                 >
                                     <use
@@ -564,13 +570,13 @@
                                     ></use>
                                 </svg>
                             </li>
-                            <li class="list-footer">
+                            <li class="footer-list">
                                 <a
                                     href="https://www.facebook.com"
                                     target="_blank"
                                 ></a>
                                 <svg
-                                    class="icon-social-footer"
+                                    class="footer-icon-social"
                                     viewBox="0 0 50 100"
                                 >
                                     <use
@@ -578,13 +584,13 @@
                                     ></use>
                                 </svg>
                             </li>
-                            <li class="list-footer">
+                            <li class="footer-list">
                                 <a
                                     href="https://www.linkedin.com"
                                     target="_blank"
                                 ></a>
                                 <svg
-                                    class="icon-social-footer"
+                                    class="footer-icon-social"
                                     viewBox="0 0 50 100"
                                 >
                                     <use
@@ -595,8 +601,8 @@
                         </ul>
                     </div>
                     <div>
-                        <h4 class="title-footer">ZAPISZ SIĘ DO NEWSLETTERA</h4>
-                        <form class="ul-footer">
+                        <h4 class="footer-title">ZAPISZ SIĘ DO NEWSLETTERA</h4>
+                        <form class="footer-ul">
                             <label for="user_email"></label>
                             <input
                                 class="footer-input"
@@ -631,7 +637,7 @@
                     X
                 </button>
                 <form
-                    name="oreder-services"
+                    name="order-services"
                     autocomplete="on"
                     class="form-style"
                 >

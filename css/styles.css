@@ -37,7 +37,7 @@ section {
     vertical-align: top;
     text-align: left;
 }
-.logo-light {
+.footer-logo {
     font-family: raleway;
     color: var(--snow);
     text-decoration: none;
@@ -49,7 +49,7 @@ section {
     text-align: left;
     padding-left: 200px;
 }
-.logo-dark-part {
+.logo-dark--part {
     color: var(--brand-color);
 }
 .link {
@@ -69,7 +69,7 @@ section {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.background {
+.main-background {
     background-color: var(--dark-grey);
     padding: 200px 252px 200px 252px;
     background-image: linear-gradient(
@@ -80,7 +80,7 @@ section {
     background-position: center;
     background-repeat: no-repeat;
 }
-.background-bottom {
+.footer-background {
     margin: 0 auto;
     height: 192px;
     padding-top: 60px;
@@ -92,7 +92,7 @@ section {
     justify-content: center;
     align-items: center;
 }
-.text-content {
+.container-black-title {
     color: var(--snow);
     font-size: 44px;
     font-weight: 900;
@@ -101,7 +101,7 @@ section {
     vertical-align: top;
     text-align: center;
 }
-.order-service {
+.container-black-button {
     background-color: var(--brand-color);
     border: var(--brand-color);
     border-radius: 4px;
@@ -117,7 +117,7 @@ section {
     text-align: center;
     padding: 10px 41px 10px 42px;
 }
-.title-style {
+.item-title {
     font-size: 14px;
     font-weight: 700px;
     line-height: 1, 1;
@@ -126,7 +126,7 @@ section {
     text-align: left;
     margin-top: 40px;
 }
-.text-style {
+.item-text {
     color: var(--mouse);
     font-size: 14px;
     line-height: 1, 7;
@@ -134,7 +134,7 @@ section {
     vertical-align: top;
     text-align: left;
 }
-.specialty {
+.section-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 1, 2;
@@ -144,20 +144,11 @@ section {
     padding-bottom: 50px;
     margin-top: 60px;
 }
-.clients-text {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1, 2;
-    letter-spacing: 3%;
-    vertical-align: top;
-    text-align: center;
-    padding-bottom: 50px;
-}
 .grey {
     background-color: var(--almost-white);
     margin: 0 auto;
 }
-.name {
+.item-name {
     font-size: 16px;
     font-weight: 500;
     line-height: 1, 2;
@@ -165,7 +156,7 @@ section {
     vertical-align: top;
     text-align: center;
 }
-.position {
+.item-position {
     color: var(--mouse);
     font-size: 16px;
     line-height: 1, 2;
@@ -173,7 +164,7 @@ section {
     vertical-align: top;
     text-align: center;
 }
-.address-style {
+.footer-address {
     color: var(--snow);
     text-decoration: none;
     font-size: 14px;
@@ -185,7 +176,7 @@ section {
     width: 246px;
     padding-left: 200px;
 }
-.link-footer {
+.footer-link {
     color: var(--snow);
     text-decoration: none;
     font-size: 14px;
@@ -195,9 +186,9 @@ section {
     text-align: left;
     padding-left: 200px;
 }
-.link-footer:hover,
-.link-footer:focus,
-.link-footer:active {
+.footer-link:hover,
+.footer-link:focus,
+.footer-link:active {
     color: var(--brand-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -260,14 +251,14 @@ section {
     justify-content: flex-start;
     align-items: center;
 }
-.icons-color {
+.item-icon {
     background-color: var(--almost-white);
     padding-inline: 100px;
 }
-.icons-design {
+.clients-icon {
     fill: var(--icons-grey);
 }
-.icons-design:hover {
+.clients-icon:hover {
     fill: var(--brand-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -340,14 +331,11 @@ a:focus {
     width: 270px;
 }
 
-.specialty-pics {
+.specialty {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     padding: 0;
-}
-.specialty-pics:last-child {
-    margin: unset;
 }
 
 .frame {
@@ -376,23 +364,23 @@ a:focus {
     border-top: none;
 }
 
-.flex-team {
+.item-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-inline: 50px;
 }
-.social-logos {
+.item-logos {
     color: var(--icons-grey);
     fill: currentColor;
 }
-.logos-design {
+.item-logos-design {
     fill: var(--mouse);
     width: 40px;
     height: 40px;
     margin-bottom: 20px;
 }
-.logos-design:hover {
+.item-logos-design:hover {
     border-radius: 50%;
     cursor: pointer;
     background: var(--brand-color);
@@ -400,32 +388,32 @@ a:focus {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.title-footer {
+.footer-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     color: var(--snow);
 }
-.ul-footer {
+.footer-ul {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-.list-footer {
+.footer-list {
     margin-right: 10px;
     width: 44px;
     height: 44px;
 }
-.icon-social-footer {
+.footer-icon-social {
     background: var(--mouse);
     border-radius: 50%;
     fill: var(--snow);
     width: 40px;
     height: 40px;
 }
-.icon-social-footer:hover {
+.footer-icon-social:hover {
     background: var(--brand-color);
     border-radius: 50%;
     cursor: pointer;
@@ -478,12 +466,12 @@ a:focus {
     vertical-align: top;
     letter-spacing: 3%;
 }
-.picture {
+.specialty-picture {
     position: relative;
     overflow: hidden;
     list-style-type: none;
 }
-.picture > .label {
+.specialty-picture > .specialty-label {
     position: absolute;
     width: 100%;
     height: 70px;
