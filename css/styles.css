@@ -49,7 +49,7 @@ section {
     text-align: left;
     padding-left: 200px;
 }
-.logo-part {
+.logo-dark-part {
     color: var(--brand-color);
 }
 .link {
@@ -249,7 +249,7 @@ section {
     vertical-align: top;
     text-align: left;
 }
-.flex-container {
+.logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -304,10 +304,10 @@ a:focus {
     width: 1200px;
     margin: 0 auto;
 }
-.bottom-line {
+.page-header {
     border: var(--light) solid 1px;
 }
-.flex-nav {
+.navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -316,7 +316,7 @@ a:focus {
     margin-left: 47px;
     margin-right: 371px;
 }
-.flex-adress {
+.adress {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -433,13 +433,13 @@ a:focus {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.underline {
+.link-underline {
     position: relative;
     top: 17px;
     border-radius: 2px;
     background: var(--brand-color);
 }
-.underline::after {
+.link-underline::after {
     content: "";
     position: absolute;
     left: 0;
