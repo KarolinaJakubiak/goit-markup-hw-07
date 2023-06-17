@@ -217,7 +217,7 @@ section {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.shadows:hover {
+.project-shadows:hover {
     cursor: pointer;
     border-radius: 4px;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 16%);
@@ -343,7 +343,7 @@ a:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
     padding: 0;
 }
-.menu {
+.button-menu {
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -351,14 +351,14 @@ a:focus {
 .button-item {
     justify-content: space-between;
 }
-.menu-set {
+.project-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
 }
-.bottom-frame {
+.project-bottom-frame {
     padding-left: 24px;
     border: 1px solid var(--light);
     border-top: none;
@@ -437,12 +437,12 @@ a:focus {
     display: block;
     background-color: var(--brand-color);
 }
-.box {
+.project-box {
     position: relative;
     margin: 0 auto;
     overflow: hidden;
 }
-.overlay {
+.project-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -453,10 +453,10 @@ a:focus {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.box:hover .overlay {
+.project-box:hover .project-overlay {
     transform: translateY(0);
 }
-.overlay p {
+.project-overlay p {
     color: var(--snow);
     padding: 49px 45px 49px 24px;
     margin: 0 auto;
