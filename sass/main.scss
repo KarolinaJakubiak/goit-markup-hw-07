@@ -1,0 +1,14 @@
+@import "utils/vars";
+@import "components/employee_card.scss";
+
+.card-set {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.item {
+    background-color: $employee-card-background-color;
+    justify-content: space-between;
+    width: $employee-card-width;
+}

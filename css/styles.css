@@ -104,7 +104,7 @@ section {
 .container-black-button {
     background-color: var(--brand-color);
     border: var(--brand-color);
-    border-radius: 4px;
+    border-radius: $default-border-radius;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: var(--snow);
     cursor: pointer;
@@ -206,7 +206,7 @@ section {
     letter-spacing: 3%;
     vertical-align: top;
     text-align: center;
-    border-radius: 4px;
+    border-radius: $default-border-radius;
 }
 .button-design:hover,
 .button-design:focus,
@@ -219,7 +219,7 @@ section {
 }
 .project-shadows:hover {
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: $default-border-radius;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 16%);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -273,7 +273,7 @@ a:focus {
 .clients-border {
     list-style: none;
     border: 1px solid var(--icons-grey);
-    border-radius: 4px;
+    border-radius: $default-border-radius;
     cursor: pointer;
     width: 170px;
     height: 92px;
@@ -284,7 +284,7 @@ a:focus {
 .clients-border:hover {
     list-style: none;
     border: 1px solid var(--brand-color);
-    border-radius: 4px;
+    border-radius: $default-border-radius;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -320,16 +320,6 @@ a:focus {
     width: 1200px;
     margin: 0 auto;
 }
-.card-set {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-.item {
-    background-color: var(--snow);
-    justify-content: space-between;
-    width: 270px;
-}
 
 .specialty {
     display: flex;
@@ -339,7 +329,7 @@ a:focus {
 }
 
 .frame {
-    border-radius: 4px;
+    border-radius: $default-border-radius;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
     padding: 0;
 }
