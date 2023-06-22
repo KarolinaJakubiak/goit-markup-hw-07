@@ -1,14 +1,17 @@
-@import "utils/vars";
-@import "components/employee_card.scss";
-
-.card-set {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-
-.item {
-    background-color: $employee-card-background-color;
-    justify-content: space-between;
-    width: $employee-card-width;
-}
+@import "./utils/vars";
+@import "./components/employee_cards.scss";
+@import "./components/basics.scss";
+@import "./components/header_logo.scss";
+@import "./components/header_navigation.scss";
+@import "./components/header_adress.scss";
+@import "./components/main_background.scss";
+@import "./components/ipsum_icon_section.scss";
+@import "./components/specialty.scss";
+@import "./components/our_clients";
+@import "./components/footer";
+@import "./components/footer_contact";
+@import "./components/footer_joinus";
+@import "./components/footer_signin";
+@import "./components/modal";
+@import "./components/portfolio_button_menu";
+@import "./components/portfolio_project_menu";

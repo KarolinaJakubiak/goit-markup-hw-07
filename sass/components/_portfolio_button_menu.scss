@@ -1,0 +1,31 @@
+.button-menu {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.button-item {
+    justify-content: space-between;
+}
+.button-design {
+    border: var(--almost-white);
+    cursor: pointer;
+    width: 114px;
+    height: 38px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 6;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: center;
+    border-radius: $default-border-radius;
+}
+.button-design:hover,
+.button-design:focus,
+.button-design:active {
+    color: var(--snow);
+    background-color: var(--brand-color);
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.12);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

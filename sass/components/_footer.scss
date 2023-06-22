@@ -1,0 +1,15 @@
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-grey);
+}
+.footer-background {
+    margin: 0 auto;
+    height: 192px;
+    padding-top: 60px;
+}
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

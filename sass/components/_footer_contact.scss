@@ -1,0 +1,41 @@
+.footer-logo {
+    font-family: raleway;
+    color: var(--snow);
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1, 2;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 200px;
+}
+.footer-address {
+    color: var(--snow);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1, 7;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 20px;
+    width: 246px;
+    padding-left: 200px;
+}
+.footer-link {
+    color: var(--snow);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1, 7;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 200px;
+}
+.footer-link:hover,
+.footer-link:focus,
+.footer-link:active {
+    color: var(--brand-color);
+    transition-duration: $default-time;
+    transition-timing-function: $default-timing-function;
+}
