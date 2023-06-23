@@ -53,7 +53,7 @@
     position: relative;
 }
 .label-style {
-    font-size: 12px;
+    font-size: $font-size12;
     line-height: 14px;
     letter-spacing: 1, 16;
     display: flex;
@@ -68,14 +68,14 @@
 .input-style:focus {
     outline: 1px solid var(--brand-color);
     transition-property: outline;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: $default-time;
+    transition-timing-function: $default-timing-function;
 }
 .input-style:focus + svg {
     fill: var(--brand-color);
     transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: $default-time;
+    transition-timing-function: $default-timing-function;
 }
 .icons-form {
     top: 25px;
@@ -89,7 +89,7 @@
 }
 form h3 {
     text-align: center;
-    font-size: 20px;
+    font-size: $font-size20;
     font-weight: 700;
     line-height: 23px;
     letter-spacing: 1, 15;
@@ -110,7 +110,7 @@ form h3 {
     resize: none;
 }
 .textarea {
-    font-size: 12px;
+    font-size: $font-size12;
     color: var(--icons-grey);
     width: 448px;
     height: 120px;
@@ -120,12 +120,12 @@ form h3 {
     background-color: var(--brand-color);
     border: var(--brand-color);
     border-radius: $default-border-radius;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: $default-box-shadow;
     color: var(--snow);
     cursor: pointer;
     width: 200px;
     height: 50px;
-    font-size: 16px;
+    font-size: $font-size16;
     font-weight: 700;
     line-height: 1, 9;
     letter-spacing: 6%;
@@ -134,7 +134,7 @@ form h3 {
     margin: 20px 144px 40px 144px;
 }
 .checkbox-label {
-    font-size: 14px;
+    font-size: $font-size14;
     line-height: 24px;
     letter-spacing: 0, 58;
     color: var(--mouse);

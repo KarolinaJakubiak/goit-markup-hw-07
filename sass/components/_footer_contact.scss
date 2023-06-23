@@ -15,10 +15,10 @@
     }
 }
 .footer-logo {
-    font-family: raleway;
+    font-family: var(--secondary-font);
     color: var(--snow);
     text-decoration: none;
-    font-size: 26px;
+    font-size: $font-size26;
     font-weight: 700;
     line-height: 1, 2;
     letter-spacing: 3%;
@@ -29,7 +29,7 @@
 .footer-address {
     color: var(--snow);
     text-decoration: none;
-    font-size: 14px;
+    font-size: $font-size14;
     line-height: 1, 7;
     letter-spacing: 3%;
     vertical-align: top;
@@ -41,7 +41,7 @@
 .footer-link {
     color: var(--snow);
     text-decoration: none;
-    font-size: 14px;
+    font-size: $font-size14;
     line-height: 1, 7;
     letter-spacing: 3%;
     vertical-align: top;

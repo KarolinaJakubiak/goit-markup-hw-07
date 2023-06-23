@@ -18,7 +18,7 @@
 
     &-title {
         color: var(--snow);
-        font-size: 44px;
+        font-size: $font-size44;
         font-weight: 900;
         line-height: 1, 4;
         letter-spacing: 6%;
@@ -29,11 +29,11 @@
         background-color: var(--brand-color);
         border: var(--brand-color);
         border-radius: $default-border-radius;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: $default-box-shadow;
         color: var(--snow);
         cursor: pointer;
         width: 200px;
-        font-size: 16px;
+        font-size: $font-size16;
         font-weight: 700;
         line-height: 1, 9;
         letter-spacing: 6%;

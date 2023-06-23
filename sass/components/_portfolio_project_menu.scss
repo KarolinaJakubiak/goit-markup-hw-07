@@ -6,7 +6,7 @@
     transition-timing-function: $default-timing-function;
 }
 .project-name {
-    font-size: 18px;
+    font-size: $font-size18;
     font-weight: 700;
     line-height: 2;
     letter-spacing: 6%;
@@ -15,7 +15,7 @@
 }
 .project-type {
     color: var(--mouse);
-    font-size: 16px;
+    font-size: $font-size16;
     line-height: 1, 9;
     letter-spacing: 3%;
     vertical-align: top;

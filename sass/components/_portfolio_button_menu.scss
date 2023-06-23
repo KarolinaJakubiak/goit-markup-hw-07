@@ -13,7 +13,7 @@
             height: 38px;
             text-decoration: none;
             font-weight: 500;
-            font-size: 16px;
+            font-size: $font-size16;
             line-height: 1, 6;
             letter-spacing: 3%;
             vertical-align: top;
@@ -26,8 +26,8 @@
                 color: var(--snow);
                 background-color: var(--brand-color);
                 box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.12);
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                transition-duration: $default-time;
+                transition-timing-function: $default-timing-function;
             }
         }
     }
