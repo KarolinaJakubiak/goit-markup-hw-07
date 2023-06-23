@@ -1,3 +1,19 @@
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-grey);
+
+    .footer-background {
+        margin: 0 auto;
+        height: 192px;
+        padding-top: 60px;
+    }
+    .footer-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
 .footer-logo {
     font-family: raleway;
     color: var(--snow);
@@ -31,11 +47,12 @@
     vertical-align: top;
     text-align: left;
     padding-left: 200px;
-}
-.footer-link:hover,
-.footer-link:focus,
-.footer-link:active {
-    color: var(--brand-color);
-    transition-duration: $default-time;
-    transition-timing-function: $default-timing-function;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: var(--brand-color);
+        transition-duration: $default-time;
+        transition-timing-function: $default-timing-function;
+    }
 }

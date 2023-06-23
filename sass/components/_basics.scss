@@ -51,11 +51,7 @@ section {
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-.item {
-    background-color: var(--snow);
-    justify-content: space-between;
-    width: $employee-card-width;
-}
+
 a:hover,
 a:focus {
     fill: var(--brand-color);
