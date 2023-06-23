@@ -23,15 +23,14 @@
             transition-duration: $default-time;
             transition-timing-function: $default-timing-function;
         }
+    }
+    &-icon {
+        fill: var(--icons-grey);
 
-        &-icon {
-            fill: var(--icons-grey);
-
-            &:hover {
-                fill: var(--brand-color);
-                transition-duration: $default-time;
-                transition-timing-function: $default-timing-function;
-            }
+        &:hover {
+            fill: var(--brand-color);
+            transition-duration: $default-time;
+            transition-timing-function: $default-timing-function;
         }
     }
 }
