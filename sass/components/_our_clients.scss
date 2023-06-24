@@ -15,20 +15,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
-        &:hover {
-            list-style: none;
-            border: 1px solid var(--brand-color);
-            border-radius: $default-border-radius;
-            transition-duration: $default-time;
-            transition-timing-function: $default-timing-function;
-        }
-    }
-    &-icon {
         fill: var(--icons-grey);
 
-        &:hover {
+        &:hover,
+        :focus {
+            list-style: none;
+            border: 1px solid var(--brand-color);
             fill: var(--brand-color);
+            border-radius: $default-border-radius;
             transition-duration: $default-time;
             transition-timing-function: $default-timing-function;
         }

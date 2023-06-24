@@ -6,5 +6,10 @@
 
     .link-color {
         color: var(--mouse);
+
+        &:hover,
+        :focus {
+            color: var(--brand-color);
+        }
     }
 }
