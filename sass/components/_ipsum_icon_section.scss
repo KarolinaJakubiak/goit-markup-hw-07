@@ -1,4 +1,4 @@
-.item-title {
+.element__title {
     font-size: $font-size14;
     font-weight: 700px;
     line-height: 1, 1;
@@ -7,7 +7,7 @@
     text-align: left;
     margin-top: 40px;
 }
-.item-text {
+.element__text {
     color: var(--mouse);
     font-size: $font-size14;
     line-height: 1, 7;
@@ -15,7 +15,7 @@
     vertical-align: top;
     text-align: left;
 }
-.item-icon {
+.element__icon {
     background-color: var(--almost-white);
     padding-inline: 100px;
 }

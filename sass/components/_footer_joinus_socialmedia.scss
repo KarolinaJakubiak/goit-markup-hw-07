@@ -1,15 +1,15 @@
-.footer-ul {
+.footer-list {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 
-    .footer-list {
+    .footer-social {
         margin-right: 10px;
         width: 44px;
         height: 44px;
 
-        .footer-icon-social {
+        &__icon {
             background: var(--mouse);
             border-radius: 50%;
             fill: var(--snow);

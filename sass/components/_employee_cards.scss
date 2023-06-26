@@ -7,12 +7,12 @@
         box-shadow: $default-box-shadow;
         padding: 0;
     }
-    .item {
+    .card-set__element {
         background-color: var(--snow);
         justify-content: space-between;
         width: $employee-card-width;
 
-        &-name {
+        .element__name {
             font-size: $font-size16;
             font-weight: 500;
             line-height: 1, 2;
@@ -20,7 +20,7 @@
             vertical-align: top;
             text-align: center;
         }
-        &-position {
+        .element__position {
             color: var(--mouse);
             font-size: $font-size16;
             line-height: 1, 2;

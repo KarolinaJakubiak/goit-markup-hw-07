@@ -3,10 +3,10 @@
     justify-content: center;
     gap: 8px;
 
-    .button-item {
+    .button {
         justify-content: space-between;
 
-        .button-design {
+        &__design {
             border: var(--almost-white);
             cursor: pointer;
             width: 114px;
