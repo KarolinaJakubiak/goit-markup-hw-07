@@ -4,23 +4,24 @@
     flex-wrap: nowrap;
     padding: 0;
 
-    .specialty-picture {
+    &__list {
         position: relative;
         overflow: hidden;
         list-style-type: none;
     }
-}
-.specialty-picture > .specialty-label {
-    position: absolute;
-    width: 100%;
-    height: 70px;
-    bottom: -10px;
-    background-color: rgba(47, 48, 58, 80%);
-    font-size: $font-size14;
-    font-weight: 700;
-    text-align: center;
-    color: var(--snow);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+    &__list-label {
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        bottom: -10px;
+        background-color: rgba(47, 48, 58, 80%);
+        font-size: $font-size14;
+        font-weight: 700;
+        text-align: center;
+        color: var(--snow);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
